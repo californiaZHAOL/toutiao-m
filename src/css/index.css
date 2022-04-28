@@ -73,3 +73,14 @@
 .icon-zuopin:before {
   content: "\e617";
 }
+.page-bav-bar,
+.van-nav-bar {
+  background-color: #3296fa;
+}
+.page-bav-bar .van-nav-bar__title,
+.van-nav-bar .van-nav-bar__title {
+  color: white;
+}
+body {
+  background-color: #f5f7f9;
+}

@@ -5,11 +5,16 @@ Vue.use(VueRouter)
 
 // 配置自己的路由表
 const routes = [
-  // {
-  //   path: '/',
-  //   name: 'home',
-  //   component: HomeView
-  // }
+  {
+    path: '/',
+    redirect: '/login'
+  },
+  {
+    path: '/login',
+    name: 'login',
+    // 路由懒加载
+    component: () => import('@/views/login')
+  }
 ]
 
 const router = new VueRouter({
