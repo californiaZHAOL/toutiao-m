@@ -9,6 +9,8 @@ import 'vant/lib/index.css'
 import 'amfe-flexible'
 // 加载全局样式 里面包含了图标样式
 import '@/styles/index.less'
+// 加载dayjs
+import '@/utils/dayjs'
 
 // 注册vant
 Vue.use(Vant)
